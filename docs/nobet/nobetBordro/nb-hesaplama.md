@@ -22,3 +22,4 @@ Döneme ait katsayı bilgilerinin gösterildiği alandır.
 
 Dönem detay bilgileri alanında seçili personelin hesaplamaya ilişkin bilgilerinin gösterildiği alandır.
 
+![](/img/24.jpg)
