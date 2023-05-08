@@ -6,8 +6,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
+  title: 'EKOBS',
+  tagline: 'Ek Ödeme Dair Başkanlığı',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -64,70 +64,54 @@ const config = {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'My Site',
+        title: 'EKOBS',
         logo: {
-          alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          alt: 'Ekobs',
+          src: 'img/sb.svg',
         },
         items: [
           {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
             position: 'left',
-            label: 'Tutorial',
+            label: 'Dökümanlar',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
-          {
-            href: 'https://github.com/facebook/docusaurus',
-            label: 'GitHub',
-            position: 'right',
-          },
+          
         ],
       },
       footer: {
         style: 'dark',
         links: [
+          
           {
-            title: 'Docs',
+            title: 'Sosyal Medya',
             items: [
               {
-                label: 'Tutorial',
-                to: '/docs/intro',
-              },
-            ],
-          },
-          {
-            title: 'Community',
-            items: [
-              {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+                label: 'Instagram',
+                href: 'https://www.instagram.com/saglikbakanligi/',
               },
               {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
+                label: 'Facebook',
+                href: 'https://www.facebook.com/saglikbakanligi/?locale=tr_TR',
               },
               {
                 label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
+                href: 'https://twitter.com/saglikbakanligi',
               },
             ],
           },
           {
-            title: 'More',
+            title: 'Web Site',
             items: [
+            
               {
-                label: 'Blog',
-                to: '/blog',
-              },
-              {
-                label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                label: 'Sağlık Bakanlığı',
+                href: 'https://saglik.gov.tr/',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Bu bir Sağlık Bakanlığı uygulamasıdır.`,
       },
       prism: {
         theme: lightCodeTheme,
