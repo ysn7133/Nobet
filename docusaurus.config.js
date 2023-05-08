@@ -7,10 +7,10 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'EKOBS',
-  tagline: 'Ek Ödeme Dair Başkanlığı',
+  tagline: 'Ek Ödeme Daire Başkanlığı',
 
   // Set the production url of your site here
-  url: 'https://your-docusaurus-test-site.com',
+  url: 'https://ekobs.saglik.gov.tr',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
@@ -75,13 +75,11 @@ const config = {
             position: 'left',
             label: 'Dökümanlar',
           },
-          
         ],
       },
       footer: {
         style: 'dark',
         links: [
-          
           {
             title: 'Sosyal Medya',
             items: [
@@ -102,7 +100,6 @@ const config = {
           {
             title: 'Web Site',
             items: [
-            
               {
                 label: 'Sağlık Bakanlığı',
                 href: 'https://saglik.gov.tr/',
